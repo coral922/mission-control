@@ -1,0 +1,46 @@
+{
+  "lastUpdated": "2026-03-02T08:25:00Z",
+  "actionRequired": [
+    {
+      "title": "MD 文件同步 Cron 任务失败 - 需要检查",
+      "url": null,
+      "priority": "high"
+    }
+  ],
+  "activeNow": [
+    {
+      "task": "搭建 Tier 2 Mission Control 仪表板",
+      "model": "qwen3.5-plus",
+      "startedAt": "2026-03-02T08:25:00Z"
+    }
+  ],
+  "products": [],
+  "crons": [
+    {
+      "name": "MD 文件同步",
+      "schedule": "*/5 * * * *",
+      "lastRun": "2026-03-02T07:42:00Z",
+      "status": "error",
+      "errors": 1,
+      "lastError": "同步任务执行失败"
+    }
+  ],
+  "recentActivity": [
+    {
+      "time": "2026-03-02T08:25:00Z",
+      "event": "✅ 创建 Tier 2 仪表板文件"
+    },
+    {
+      "time": "2026-03-02T08:18:00Z",
+      "event": "✅ 创建 Tier 1 Canvas 仪表板"
+    },
+    {
+      "time": "2026-03-02T08:17:00Z",
+      "event": "✅ 安装 agent-dashboard 技能"
+    },
+    {
+      "time": "2026-03-02T08:15:00Z",
+      "event": "✅ 安装 superdesign 技能"
+    }
+  ]
+}
