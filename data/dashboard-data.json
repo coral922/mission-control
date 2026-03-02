@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-02T09:07:00Z",
+  "lastUpdated": "2026-03-02T09:30:00Z",
   "actionRequired": [
     {
       "title": "MD 文件同步 Cron 任务失败 - 需要检查",
@@ -11,7 +11,7 @@
     {
       "task": "Dashboard Update (Cron)",
       "model": "qwen3.5-plus",
-      "startedAt": "2026-03-02T09:07:00Z"
+      "startedAt": "2026-03-02T09:30:00Z"
     }
   ],
   "products": [],
@@ -19,10 +19,10 @@
     {
       "name": "Dashboard Update",
       "schedule": "*/30 * * * *",
-      "lastRun": "2026-03-02T09:07:00Z",
+      "lastRun": "2026-03-02T09:30:00Z",
       "status": "running",
       "errors": 0,
-      "nextRun": "2026-03-02T09:30:00Z"
+      "nextRun": "2026-03-02T10:00:00Z"
     },
     {
       "name": "MD 文件同步",
@@ -34,6 +34,10 @@
     }
   ],
   "recentActivity": [
+    {
+      "time": "2026-03-02T09:30:00Z",
+      "event": "🔄 Dashboard Update - 数据刷新"
+    },
     {
       "time": "2026-03-02T09:07:00Z",
       "event": "🔄 Dashboard Update - 数据刷新"
@@ -49,10 +53,6 @@
     {
       "time": "2026-03-02T08:17:00Z",
       "event": "✅ 安装 agent-dashboard 技能"
-    },
-    {
-      "time": "2026-03-02T08:15:00Z",
-      "event": "✅ 安装 superdesign 技能"
     }
   ]
 }
