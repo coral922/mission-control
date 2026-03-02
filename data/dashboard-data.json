@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-02T08:25:00Z",
+  "lastUpdated": "2026-03-02T09:07:00Z",
   "actionRequired": [
     {
       "title": "MD 文件同步 Cron 任务失败 - 需要检查",
@@ -9,23 +9,35 @@
   ],
   "activeNow": [
     {
-      "task": "搭建 Tier 2 Mission Control 仪表板",
+      "task": "Dashboard Update (Cron)",
       "model": "qwen3.5-plus",
-      "startedAt": "2026-03-02T08:25:00Z"
+      "startedAt": "2026-03-02T09:07:00Z"
     }
   ],
   "products": [],
   "crons": [
     {
+      "name": "Dashboard Update",
+      "schedule": "*/30 * * * *",
+      "lastRun": "2026-03-02T09:07:00Z",
+      "status": "running",
+      "errors": 0,
+      "nextRun": "2026-03-02T09:30:00Z"
+    },
+    {
       "name": "MD 文件同步",
       "schedule": "*/5 * * * *",
-      "lastRun": "2026-03-02T07:42:00Z",
+      "lastRun": "2026-03-02T08:36:00Z",
       "status": "error",
       "errors": 1,
       "lastError": "同步任务执行失败"
     }
   ],
   "recentActivity": [
+    {
+      "time": "2026-03-02T09:07:00Z",
+      "event": "🔄 Dashboard Update - 数据刷新"
+    },
     {
       "time": "2026-03-02T08:25:00Z",
       "event": "✅ 创建 Tier 2 仪表板文件"
